@@ -1,0 +1,116 @@
+ #description-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 50000;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+    overflow: hidden;
+}
+
+#description-text{
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+  background: white;
+  padding: 50px 20px;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 50%;
+  border-radius: 6px;
+}
+
+#close-decsription-view, #payment-overlay-close{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: red;
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  font-size: 1.2em;
+  cursor: pointer;
+  z-index: 15000;
+}
+
+
+#withdraw-overlay, #payment-modal-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.92);
+    z-index: 500000;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#withdraw-overlay{
+    display: none;
+}
+
+#payment-modal-overlay{
+    display: none;
+}
+
+#payment-modal-overlay .row.g-4{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    padding: 10% 2%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#withdraw-overlay form label, h3{
+   color: #ffffff;
+}
+
+#payment-modal-overlay p, h3, h1{
+   color: #ffffff;
+}
+
+ #payment-modal-overlay img{
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
+    margin-top: -4%;
+}
+
+#payment-modal-overlay p{
+   padding: 0% 2%;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-text{
+    width: 25% !important;
+}
+
+.col-sm-10{
+    width: 75% !important;
+}
+
+

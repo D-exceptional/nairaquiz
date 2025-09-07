@@ -1,0 +1,105 @@
+ #description-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 50000;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+    overflow: hidden;
+}
+
+#description-text{
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+  background: white;
+  padding: 50px 20px;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 50%;
+  border-radius: 6px;
+}
+
+#close-decsription-view{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: red;
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  font-size: 1.2em;
+  cursor: pointer;
+  z-index: 15000;
+}
+
+#stake-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.92);
+    z-index: 500000;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#close-view{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: red;
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  font-size: 1.2em;
+  cursor: pointer;
+  z-index: 15000;
+}
+
+#stake-overlay form label, h3{
+   color: #ffffff;
+}
+
+#stake-overlay h3{
+   padding: 0% 2%;
+}
+
+#stake-overlay span{
+   color: white;
+   font-size: 1rem;
+}
+
+#stake-overlay .form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#stake-overlay .form-text{
+    width: 25% !important;
+}
+
+#stake-overlay .col-sm-10{
+    width: 75% !important;
+}

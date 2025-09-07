@@ -1,0 +1,39 @@
+# ====================
+# Admin Folder Rules
+# ====================
+admin/dist/css/*
+!admin/css/mail-overlay.css
+!admin/css/overlay.css
+admin/dist/img/
+admin/dist/js/
+admin/plugins/
+
+# ====================
+# Assets Folder Rules
+# ====================
+assets/*
+!assets/css/
+!assets/js/
+!assets/scripts/
+!assets/server/
+
+# ====================
+# Investor Folder Rules
+# ====================
+investor/dist/css/*
+!investor/css/mail-overlay.css
+!investor/css/overlay.css
+investor/dist/img/
+investor/dist/js/
+investor/plugins/
+ 
+# ====================
+# Other Folder Rules
+# ====================
+attachments/
+documents/
+cgi-bin/
+nc_assets/
+payments/
+uploads/
+vendor/

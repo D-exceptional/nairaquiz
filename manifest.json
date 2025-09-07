@@ -1,0 +1,45 @@
+{
+  "short_name": "NairaQuiz",
+  "name": "NairaQuiz",
+  "icons": [
+    {
+      "src": "/assets/img/icons-vector-1.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/assets/img/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/img/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "?source=nairaquizpwa",
+  "scope": "/",
+  "start_url": "/index",
+  "background_color": "#181d38",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone", "minimal-ui", "browser"],
+  "theme_color": "#181d38",
+  "shortcuts": [
+    {
+      "name": "NairaQuiz",
+      "short_name": "NairaQuiz",
+      "description": "An online platform for making money by taking quiz of various formats",
+      "url": "/index?source=nairaquizpwa",
+      "icons": [{ "src": "/assets/img/icons-512.png", "sizes": "512x512" }]
+    },
+    {
+      "name": "NairaQuiz",
+      "short_name": "NairaQuiz",
+      "description": "An online platform for making money by taking quiz of various formats",
+      "url": "/index?source=nairaquizpwa",
+      "icons": [{ "src": "/assets/img/icons-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "An online platform for making money by taking quiz of various formats"
+}
