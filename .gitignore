@@ -33,6 +33,7 @@ investor/dist/css/*
 investor/dist/img/
 investor/dist/js/
 investor/plugins/
+investor/server/
  
 # ====================
 # Other Folder Rules
