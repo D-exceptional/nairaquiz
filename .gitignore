@@ -7,6 +7,8 @@ admin/dist/css/*
 admin/dist/img/
 admin/dist/js/
 admin/plugins/
+admin/server/
+admin/pages/server/
 
 # ====================
 # Assets Folder Rules
@@ -15,7 +17,12 @@ assets/*
 !assets/css/
 !assets/js/
 !assets/scripts/
-!assets/server/
+assets/server/
+
+# ====================
+# Dashboard Folder Rules
+# ====================
+dashboard/server/
 
 # ====================
 # Investor Folder Rules
