@@ -208,7 +208,7 @@
                            <?php 
                                 echo '<select class="form-control" name="bank" id="bankName">';
 
-                                  $secret_key = 'sk_live_dd519ff2272708c948e5e92b4149029ab52328ca';
+                                  $secret_key = 'sk_key_';
                                   $curl = curl_init();
                                   curl_setopt_array($curl, array(
                                       CURLOPT_URL => "https://api.paystack.co/bank?country=$country",
