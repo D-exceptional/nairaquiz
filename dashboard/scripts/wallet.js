@@ -104,7 +104,7 @@ $(document).ready(function () {
 
     const popup = new PaystackPop();
     popup.checkout({
-      key: "pk_live_2736a664a573d6080872b5d6211c6f5a39ed41ff",
+      key: "pk_key",
       email: email,
       amount: amountToPay,
       onSuccess: (transaction) => {
